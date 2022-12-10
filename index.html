@@ -1,88 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | QR code component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+    </style>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-    
-<main class="contenedor">
-    <header>
-        
-        <h1 class="titulo">PORTAFOLIO</h1>
 
-    <picture class="imagen">
-        <img class="user-image" src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=170667a&w=0&k=20&c=MRMqc79PuLmQfxJ99fTfGqHL07EDHqHLWg0Tb4rPXQc=" alt="">
-    </picture>
-        
-    <div class="detalle">
+  <section class="content">
+    <article class="information">
+      <img src="./images/image-qr-code.png" alt="">
+      <h3>Improve your front-end skills by building projects</h3>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      
+    </article>
+  </section>
 
-        <h3>Jhair Infanzon Quispe</h3>
-        <h5>Developer</h5>
-
-        <nav class="nav-list">
-            <ul>
-            <li class="active">JAVA</li>
-            <li>VISUAL BASIC</li>
-            <li>JAVASCRIPT</li>
-            </ul>
-        </nav>
-        
-    </div>
-</header>
-
-<div class="content">
-    <div class="menu-card">
-            <picture class="logo">   
-                <img src="img/html.svg">
-            </picture>
-            <div class="contenido">
-                <H4>HTML 5</H4>
-                <P>Experiencia maquetación Website modernas <br> HTML 5</P>
-            </div>
-    </div>
-    <div class="menu-card">
-        <picture class="logo">   
-            <img src="img/css.svg">
-        </picture>
-        <div class="contenido">
-            <H4>CSS 3</H4>
-            <P>Experiencia maquetación Website modernas <br> HTML 5</P>
-        </div>
-</div>
-<div class="menu-card">
-    <picture class="logo">   
-        <img src="img/js.svg">
-    </picture>
-    <div class="contenido">
-        <H4>JAVASCRIPT</H4>
-        <P>Experiencia maquetación Website modernas <br> HTML 5</P>
-    </div>
-</div>
-</div>
-    
-
-
-
-</main>
-    
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
 </body>
 </html>
-
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-
-<script>
-        $(document).ready(function(){
-            
-        })
-
-        $( ".nav-list ul li" ).click(function() {
-            $(".nav-list ul li" ).removeAttr("class");
-            $(this).addClass("active");
-        });
-
-            
-</script>
